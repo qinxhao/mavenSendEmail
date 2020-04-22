@@ -15,7 +15,6 @@ public class MailController {
     private JavaMailSender mailSender;
 
     @RequestMapping("/send")
-
     public void sendMail(){
 
         SimpleMailMessage message = new SimpleMailMessage();
